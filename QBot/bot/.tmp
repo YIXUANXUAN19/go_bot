@@ -1,0 +1,4 @@
+root     31138     1  0 22:27 pts/1    00:00:00 ./go-bot faststart
+root     31267 31107  0 22:27 pts/1    00:00:00 sh -c `ps -ef | grep go-bot > .tmp`
+root     31268 31267  0 22:27 pts/1    00:00:00 sh -c `ps -ef | grep go-bot > .tmp`
+root     31270 31268  0 22:27 pts/1    00:00:00 grep go-bot

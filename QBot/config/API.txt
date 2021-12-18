@@ -1,0 +1,216 @@
+replies:
+
+#################### 图片类 ####################
+  - type: text
+    rules:
+      - 在吗
+    content: 你好，我是理塘顶针，嗝~~~
+    
+  - type: url
+    rules:
+      - 妹妹
+    request:
+        #图片
+        response_type: image 
+        url: http://api.btstu.cn/sjbz/zsy.php
+
+  - type: url
+    rules:
+      - 今日要闻
+    request:
+        #图片
+        response_type: image 
+        url: http://api.muuzi.cn/api/60look
+        
+  - type: url
+    rules:
+      - 小姐姐
+    request:
+        #图片
+        response_type: image 
+        url: http://api.qemao.com/api/pic/?type=ad
+        
+  - type: url
+    rules:
+      - 妹妹
+    request:
+        #图片
+        response_type: image 
+        url: https://cdn.seovx.com/?mom=302
+        
+  - type: url
+    rules:
+      - 美腿
+    request:
+        #图片
+        response_type: image 
+        url: https://api.iyk0.com/mtt
+        
+  - type: url
+    rules:
+      - 姐姐
+    request:
+        #图片
+        response_type: image 
+        url: http://api.btstu.cn/sjbz/zsy.php
+  
+  #美女
+  - type: url
+    rules:
+      - ^美女$
+    request:
+      response_type: image
+      url: 'http://api.btstu.cn/sjbz/zsy.php'
+      
+  - type: url
+    rules:
+      - ^壁纸$
+    request:
+      response_type: image
+      url: 'https://api.iyk0.com/sjmn'
+
+  #美图诱惑
+  - type: url
+    rules:
+      - ^美图诱惑$
+    request:
+      response_type: image
+      url: 'https://api.iyk0.com/sjmn'
+
+  #COS美图
+  - type: url
+    rules:
+      - ^cos美图$
+    request:
+      response_type: image
+      url: 'https://api.iyk0.com/cos'
+
+  #必应美图
+  - type: url
+    rules:
+      - ^bing美图$
+    request:
+      response_type: image
+      url: 'https://api.iyk0.com/bing'
+
+  #涩图
+  - type: url
+    rules:
+      - ^涩图$
+    request:
+      response_type: image
+      url: 'https://pximg2.rainchan.win/rawimg'
+
+  #买家秀
+  - type: url
+    rules:
+      - 买家秀
+    request:
+      response_type: image
+      url: 'https://api.iyk0.com/mjx'
+
+  #美腿
+  - type: url
+    rules:
+      - ^美腿$
+    request:
+      response_type: image
+      url: 'https://api.iyk0.com/mtt'
+     #url: 'https://jintia.jintias.cn/api/tk.php'
+
+  #随机色图
+  - type: url
+    rules:
+      - ^色图$
+    request:
+      response_type: image
+      url: 'https://api.nyan.xyz/httpapi/sexphoto/'
+      get: data.url.[0]
+      
+  - type: url
+    rules:
+      - 日历
+    request:
+      response_type: image
+      url: 'https://api.kbapi.cc/rl.api'
+    
+
+#################### 文字类 ####################
+
+  #历史上的今天
+  - type: url
+    rules:
+      - ^历史上的今天$
+    request:
+      url: 'https://api.iyk0.com/lishi/'
+      response_type: template
+      template: "fjson(tfmt(01月02日).[i],[i]. [?.year]，[?.title]。,\n)"
+
+  #QQ音乐
+  - type: url
+    rules:
+      - 音乐 (.*)
+    request:
+      response_type: text
+      url: 'http://xiaoapi.cn/api/yy.php?type=qq&msg={{1}}&n=1'
+
+  - type: url
+    rules:
+      - 游戏
+      - 开始游戏
+    request:
+        #纯文本
+        response_type: text
+        url: http://hm.suol.cc/API/game_gs.php?msg=开始游戏
+        
+  - type: url
+    rules:
+      - 答 (.*)
+      - 答(.*)
+    request:
+        #纯文本
+        response_type: text
+        url: http://hm.suol.cc/API/game_gs.php?msg=答{{1}}
+        
+  - type: url
+    rules:
+      - 提示
+    request:
+        #纯文本
+        response_type: text
+        url: http://hm.suol.cc/API/game_gs.php?msg=提示
+      
+  - type: url
+    rules:
+     - 头像(.*)
+    request:
+     response_type: image
+     url: https://api.sumt.cn/api/qq.logo.php?qq={{1}}
+     
+  - type: url
+    rules:
+     - 王者 (.*)
+    request:
+     response_type: text
+     url: http://hm.suol.cc/API/wzry.php?msg={{1}}
+     
+  - type: url
+    rules:
+     - 早安
+     - 晚安
+    request:
+     response_type: image
+     url: http://api.kbapi.cc/image_Tnem.api
+    
+  - type: url
+    rules:
+     - 举牌 (.*)
+    request:
+     response_type: image
+     url: https://api.kbapi.cc/jupai.api?text={{1}}
+
+    
+     
+     
+  
+     

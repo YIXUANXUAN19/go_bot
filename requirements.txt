@@ -1,0 +1,9 @@
+python-dateutil~=2.8.1
+configparser~=5.0.2
+requests~=2.25.1
+Flask~=2.0.1
+PyMySQL~=1.0.2
+demjson~=2.2.4
+lib~=3.0.0
+Twisted~=21.2.0
+feedparser~=6.0.8

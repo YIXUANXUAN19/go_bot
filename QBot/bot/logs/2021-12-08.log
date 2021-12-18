@@ -1,0 +1,11 @@
+[2021-12-08 22:27:42] [ERROR]: Protocol -> exchange_emp error: 15 
+[2021-12-08 22:27:42] [WARNING]: 恢复会话失败: exchange_emp failed , 尝试使用正常流程登录. 
+[2021-12-08 22:27:43] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.1.106:63684->153.3.50.86:8080: use of closed network connection 
+[2021-12-08 22:27:43] [ERROR]: Protocol -> decrypt payload error: unknown flag 
+[2021-12-08 22:28:17] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2021-12-08 22:28:17] [WARNING]: 将在 5秒 后继续. 
+[2021-12-08 22:28:45] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2021-12-08 22:30:00] [WARNING]: 上报 Event 数据到 127.0.0.1:5911 时创建请求失败: parse "127.0.0.1:5911": first path segment in URL cannot contain colon 
+[2021-12-08 22:31:50] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2021-12-08 22:32:14] [WARNING]: 上报 Event 数据到 127.0.0.1:5911 时创建请求失败: parse "127.0.0.1:5911": first path segment in URL cannot contain colon 
+[2021-12-08 22:33:42] [WARNING]: 上报 Event 数据到 127.0.0.1:5911 时创建请求失败: parse "127.0.0.1:5911": first path segment in URL cannot contain colon 

@@ -1,0 +1,44 @@
+[2021-12-13 17:40:09] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2021-12-13 17:40:19] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5911 失败: Post "http://127.0.0.1:5911": dial tcp 127.0.0.1:5911: connect: connection refused 将进行第 1 次重试 
+[2021-12-13 17:40:20] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5911 失败: Post "http://127.0.0.1:5911": dial tcp 127.0.0.1:5911: connect: connection refused 将进行第 2 次重试 
+[2021-12-13 17:40:21] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5911 失败: Post "http://127.0.0.1:5911": dial tcp 127.0.0.1:5911: connect: connection refused 将进行第 1 次重试 
+[2021-12-13 17:40:22] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5911 失败: Post "http://127.0.0.1:5911": dial tcp 127.0.0.1:5911: connect: connection refused 将进行第 2 次重试 
+[2021-12-13 17:40:22] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5911 失败: Post "http://127.0.0.1:5911": dial tcp 127.0.0.1:5911: connect: connection refused 将进行第 3 次重试 
+[2021-12-13 17:40:24] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5911 失败: Post "http://127.0.0.1:5911": dial tcp 127.0.0.1:5911: connect: connection refused 将进行第 4 次重试 
+[2021-12-13 17:40:25] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5911 失败: Post "http://127.0.0.1:5911": dial tcp 127.0.0.1:5911: connect: connection refused 将进行第 3 次重试 
+[2021-12-13 17:40:26] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5911 失败: Post "http://127.0.0.1:5911": dial tcp 127.0.0.1:5911: connect: connection refused 将进行第 4 次重试 
+[2021-12-13 17:40:26] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5911 失败: Post "http://127.0.0.1:5911": dial tcp 127.0.0.1:5911: connect: connection refused 将进行第 5 次重试 
+[2021-12-13 17:40:28] [WARNING]: 上报 Event 数据到 http://127.0.0.1:5911 失败: Post "http://127.0.0.1:5911": dial tcp 127.0.0.1:5911: connect: connection refused 将进行第 5 次重试 
+[2021-12-13 17:40:30] [WARNING]: 处理事件 map[font:0 message:吗 message_id:-921064711 message_type:private post_type:message raw_message:吗 self_id:162204983 sender:map[age:0 nickname:十二       sex:unknown user_id:1912144021] sub_type:friend target_id:162204983 time:1639388419 user_id:1912144021] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 151 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xab57c0, 0x113e5a0})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc000098c30, 0xc000500760)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc000651ca0)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-13 17:40:30] [WARNING]: 处理事件 map[font:0 message:命令 message_id:1504098152 message_type:private post_type:message raw_message:命令 self_id:162204983 sender:map[age:0 nickname:十二       sex:unknown user_id:1912144021] sub_type:friend target_id:162204983 time:1639388421 user_id:1912144021] 时出现错误: runtime error: invalid memory address or nil pointer dereference 
+goroutine 156 [running]:
+runtime/debug.Stack()
+	runtime/debug/stack.go:24 +0x65
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1.1()
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:530 +0x6a
+panic({0xab57c0, 0x113e5a0})
+	runtime/panic.go:1038 +0x215
+github.com/Mrs4s/go-cqhttp/server.(*HTTPClient).onBotPushEvent(0xc000098c30, 0xc000501320)
+	github.com/Mrs4s/go-cqhttp/server/http.go:367 +0xc75
+github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage.func1(0xc000651ca0)
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:535 +0xc6
+created by github.com/Mrs4s/go-cqhttp/coolq.(*CQBot).dispatchEventMessage
+	github.com/Mrs4s/go-cqhttp/coolq/bot.go:526 +0x10f
+ 
+[2021-12-13 20:41:34] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2021-12-13 20:42:43] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
+[2021-12-13 23:38:34] [WARNING]: 警告: 心跳功能已关闭，若非预期，请检查配置文件。 
